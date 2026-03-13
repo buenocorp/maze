@@ -330,6 +330,8 @@ createStart();
 createFinish();
 showRanking();
 
+document.addEventListener("contextmenu", e => e.preventDefault());
+
 </script>
 
 </body>
